@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<StarWars/>}/>
-        <Route path="/planets" element={<Planets/>}/>
-        <Route path="/people" element={<People/>}/>
+        <Route path='/planets/:id' element={<Planets/>}/>
+        <Route path='/people/:id' element={<People/>}/>
       </Routes>
     </div>
   );
